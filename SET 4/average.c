@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main()
+#include<conio.h>
+void main()
 {
     int n,a[10],i,sum=0;
     int avg;
@@ -14,10 +14,7 @@ int main()
     avg=sum/n;
     
     printf("%d",avg);
-   
-    
-
-    return 0;
+    getch();
 }
 
 
